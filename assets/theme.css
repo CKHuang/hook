@@ -7,3 +7,6 @@
 .theme-green .brand {
     color: #fff;
 }
+.theme-green .brand .name {
+    font-family: "Tahoma";
+}

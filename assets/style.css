@@ -17,13 +17,27 @@ header {
     height: 56px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    padding: 0px 1em;
 }
 header .brand {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: flex;
-    display: -webkit-box;
-    margin: auto 0;
-    font-weight: 500;
-    font-size: 26px;
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+}
+header .brand:after {
+    content:'';
+    width:0;
+    height:100%;
+    display:inline-block;
+    vertical-align:middle;  
+}
+header .brand .name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+article {
+    margin-top: 56px;
 }
