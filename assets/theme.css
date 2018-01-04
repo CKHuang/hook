@@ -1,0 +1,9 @@
+.theme-green header {
+    background: #0f9d58;
+    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    -webkit-box-shadow:  0 1px 8px rgba(0,0,0,.3);
+    color: #fff;
+}
+.theme-green .brand {
+    color: #fff;
+}

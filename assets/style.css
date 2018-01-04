@@ -1,0 +1,29 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font: normal 14px/1.5 "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Lantinghei SC,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #363b42;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 56px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+header .brand {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-box;
+    margin: auto 0;
+    font-weight: 500;
+    font-size: 26px;
+}
