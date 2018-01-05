@@ -154,6 +154,7 @@
     background-color: #fff;
     max-height: 400px;
     padding:10px 0px;
+
 }
 .dropdown .dropdown-item {
     cursor: pointer;
@@ -163,7 +164,6 @@
 }
 .dropdown .dropdown-item:hover {
     background-color: #eee;
-
 }
 
 
@@ -212,5 +212,5 @@
 .search-guess {
     position: absolute;
     width: 100%;
-    top: 0;
+    top: 110%;
 }
