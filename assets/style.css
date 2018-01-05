@@ -7,6 +7,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     color: #363b42;
+    background-color: #f2f2f2;
 }
 header {
     position: fixed;
@@ -41,3 +42,5 @@ header .brand .name {
 article {
     margin-top: 56px;
 }
+
+

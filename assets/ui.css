@@ -1,18 +1,165 @@
 /*
- * 旋转按钮
+ * font icon
+ * @find from http://fontawesome.io/icons/
  */
-.rotate-btn {
-    position: relative;
-}
-.rotate-btn .center {
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.fa {
     display: inline-block;
-    width: 2em;
-    height: 2em;
-    text-align: center;
-    line-height: 100%;
-    border-radius: 10em;
-    -webkit-border-radius: 10em;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.rotate-btn .planet {
+.fa-search:before {
+    content: "\f002";
+}
 
+
+
+
+
+
+
+/*
+ * button
+ */
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    fill: #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    outline: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    transition: background-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                box-shadow 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -webkit-transition: background-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                        box-shadow 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.btn-label {
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 0px 10px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+}
+/*
+ * shape
+ */
+.btn-round {
+    border-radius: 50%;
+}
+/*
+ * color
+ */
+.btn {
+    background-color: #fff; 
+}
+.btn.btn-success {
+    background-color: #0f9d58;
+}
+.btn.btn-error {
+    background-color:#db4437;
+}
+.btn.btn-info {
+    background-color:rgb(0, 188, 212);
+}
+.btn.btn-warn {
+    background-color:rgb(255, 153, 0);
+}
+.btn.btn-primary {
+    background-color: rgb(33, 150, 243);
+}
+.btn.btn-success .btn-label,
+.btn.btn-error .btn-label,
+.btn.btn-info .btn-label,
+.btn.btn-warn .btn-label,
+.btn.btn-primary .btn-label {
+    color: #fff;
+}
+/*
+ * active
+ */
+.btn:hover {
+    background-color: rgba(0,0,0,.08);
+}
+.btn:active {
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 1px 6px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.23) 0px 1px 6px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+.btn.btn-success:hover {
+    background-color: #22a566;
+}
+.btn.btn-success:active {
+    background-color: #2faf71;
+}
+.btn.btn-error:hover {
+    background-color:#e25548;
+}
+.btn.btn-error:active {
+    background-color:#e66257;
+}
+.btn.btn-info:hover {
+    background-color:rgb(44, 191, 211);
+}
+.btn.btn-info:active {
+    background-color:rgb(68, 202, 219);
+}
+.btn.btn-warn:hover {
+    background-color:rgb(241, 171, 66);
+}
+.btn.btn-warn:active {
+    background-color:rgb(250, 179, 74);
+}
+.btn.btn-primary:hover {
+    background-color: rgb(87, 180, 255);
+}
+.btn.btn-primary:active {
+    background-color: rgb(104, 184, 250);
+}
+
+
+
+/*
+ * search-bar
+ */
+.search-bar {
+
+}
+.search-bar .search-icon {
+    font-family: 'Material Icons Extended';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 1;
+    display: inline-block;
+    word-wrap: normal;
+}
+.search-bar .search-input {
+    
 }
