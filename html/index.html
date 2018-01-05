@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Hook</title>
-        <link rel="stylesheet" href="../assets/style.css">
-        <link rel="stylesheet" href="../assets/ui.css">
-        <link rel="stylesheet" href="../assets/theme.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/ui.css">
+        <link rel="stylesheet" href="../assets/css/theme.css">
     </head>
     <body>
         <div class="wrap theme-green">
@@ -38,9 +38,15 @@
                     <span class="btn-label">Add</span>
                 </button>
 
-                <div class="search-bar">
-                    <i class="fa fa-search"></i>
-                    <div class="search-input"></div>
+                <div class="search-bar" style="margin:20px;">
+                    <i class="fa fa-search search-icon"></i>
+                    <div class="search-input">
+                        <input type="text" autocomplete="off">
+                    </div>
+                    <i class="fa fa-close-circle search-reset"></i>
+                    <div class="search-guess">
+                        
+                    </div>
                 </div>
             </article>
         </div>
