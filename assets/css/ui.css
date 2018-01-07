@@ -185,8 +185,49 @@
 
 
 /*
- * select
+ * input, textare, select selected
  */
+ input[type="text"],
+ input[type="password"],
+ textarea,
+ .select .selected {
+     background-color: rgba(0,0,0,0);
+     font-style: inherit;
+     font-variant: inherit;
+     font-weight: inherit;
+     font-stretch: inherit;
+     line-height: inherit;
+     font-family: inherit;
+     cursor: inherit;
+     outline: 0;
+     position: relative;
+     border:0;
+     border-bottom: 1px solid #ccc;
+     color: rgba(0, 0, 0, 0.870588);
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     height: 25px;
+     font-size: 15px;
+     width: 100%;
+     transition: border-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+     display: block;
+ }
+ input[type="text"]:focus,
+ input[type="password"]:focus,
+ textarea:focus {
+     border-color: rgb(33, 150, 243);
+ }
+ textarea {
+     height: auto;
+ }
+ .input-lg {
+     height: 35px;
+ 
+ }
+ .input-sm {
+     height: 20px;
+ }
+
+
 
 
 /*
@@ -199,8 +240,36 @@
     position: relative;
 }
 .select .options {
-    
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
+.select:hover .options {
+    display: block;
+}
+ 
+ 
+ 
+ /*
+  * form
+  */
+ .form {
+     position: relative;
+ }
+ .form .form-control {
+     position: relative;
+     margin-bottom: 15px;
+ }
+ .form .form-control .form-label {
+     position: relative;
+     color: #9e9e9e;
+     font-size: 13px;
+     display: block;
+ }
+ .form .form-control .form-input {
+     position: relative;
+ }
 
 
 /*
@@ -339,70 +408,6 @@
 }
 
 
-/*
- * input
- */
-input[type="text"],
-input[type="password"],
-textarea {
-    background-color: rgba(0,0,0,0);
-    font-style: inherit;
-    font-variant: inherit;
-    font-weight: inherit;
-    font-stretch: inherit;
-    line-height: inherit;
-    font-family: inherit;
-    cursor: inherit;
-    outline: 0;
-    position: relative;
-    border:0;
-    border-bottom: 1px solid #ccc;
-    color: rgba(0, 0, 0, 0.870588);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-appearance: textfield;
-    height: 25px;
-    font-size: 15px;
-    width: 100%;
-    transition: border-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-    -webkit-appearance: textfield;
-}
-input[type="text"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-    border-color: rgb(33, 150, 243);
-}
-textarea {
-    height: auto;
-}
-.input-lg {
-    height: 35px;
-
-}
-.input-sm {
-    height: 20px;
-}
-
-
-
-/*
- * form
- */
-.form {
-    position: relative;
-}
-.form .form-control {
-    position: relative;
-    margin-bottom: 15px;
-}
-.form .form-control .form-label {
-    position: relative;
-    color: #9e9e9e;
-    font-size: 13px;
-    display: block;
-}
-.form .form-control .form-input {
-    position: relative;
-}
 
 
 
