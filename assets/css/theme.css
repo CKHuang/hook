@@ -1,12 +1,19 @@
-.theme-green header {
+.theme-green header,
+.theme-blue header {
     background: #0f9d58;
     box-shadow: 0 1px 8px rgba(0,0,0,.3);
     -webkit-box-shadow:  0 1px 8px rgba(0,0,0,.3);
     color: #fff;
 }
-.theme-green .brand {
+.theme-green .brand,
+.theme-blue .brand {
     color: #fff;
 }
-.theme-green .brand .name {
+.theme-green .brand .name,
+.theme-blue .brand .name {
     font-family: "Tahoma";
+}
+.theme-blue header {
+    background: rgb(75, 169, 247);
+
 }
