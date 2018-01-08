@@ -1,4 +1,10 @@
 /*
+ * clearfix
+ */
+ .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+ .clearfix{*+height:1%;}
+
+/*
  * font icon
  * @find from http://fontawesome.io/icons/
  */
@@ -31,6 +37,9 @@
 }
 .fa-caret-down:before {
     content: "\f0d7";
+}
+.fa-check:before {
+    content: "\f00c";
 }
 
 
@@ -296,15 +305,30 @@
 /*
  * mutliselect
  */
- .multiselect .selected-label .item{
+.multiselect .selected {
+    height: auto;
+    padding: 5px 0px;
+}
+.multiselect .selected-label {
+    *+height:1%;
+}
+.multiselect .selected-label:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+.multiselect .selected-label .item{
     margin-right: 5px;
     border-radius: 2px;
-    background-color: rgb(33, 150, 243);
+    background-color: rgb(75, 169, 247);
     color: #fff;
     padding: 1px 8px;
     border-radius: 16px;
     padding-right: 1px;
     display: inline-block;
+    float: left;
 }
 .multiselect .selected-label .item .remove {
     font-size: 15px;
@@ -312,11 +336,120 @@
     vertical-align: baseline;
     margin-left: 3px;
     margin-right: 5px;
+    color: rgb(9, 81, 138);
 }
 .multiselect:hover .options-wrap {
+    display: block;
+}
+
+
+/*
+ * checkbox
+ */
+.checkbox {
+     margin-left: 2px;
+     margin-top: 3px;
+     margin-right: 3px;
+}
+.checkbox span{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #5a5a5a;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
+    font: normal normal normal 12px/1 FontAwesome;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.checkbox span:after {
+    content: "\f00c";
+    color: #fff;
+    transition: background-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                outline 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -webkit-transition: background-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                        outline 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.checkbox input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
     display: none;
 }
- 
+.checkbox input[type="checkbox"]:checked + span {
+    border-color:  rgb(75, 169, 247);
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(75, 169, 247);
+}
+
+
+/*
+ * switch
+ */
+.switch {
+    position: relative;
+    display: inline-block;
+}
+.switch input[type="checkbox"] {
+    width: 52px;
+    z-index: 2;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+}
+.switch input[type="checkbox"]:before {
+    content: '';
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color: #dfdfdf;
+    -webkit-box-shadow: #dfdfdf 0 0 0 0 inset;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s;
+    transition: border .4s,box-shadow .4s;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+.switch input[type="checkbox"]:checked:before {
+    border-color: rgb(75, 169, 247);
+    -webkit-box-shadow: rgb(75, 169, 247) 0 0 0 16px inset;
+    box-shadow: rgb(75, 169, 247) 0 0 0 16px inset;
+    background-color: rgb(75, 169, 247);
+    transition: border .4s,box-shadow .4s,background-color 1.2s;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s,background-color 1.2s;
+    background-color: rgb(75, 169, 247);
+}
+.switch input[type="checkbox"]:after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: left .2s;
+    transition: left .2s;
+}
+.switch input[type="checkbox"]:checked:after {
+    left: 31px;
+    
+}
  
  
  
