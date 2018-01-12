@@ -1,0 +1,20 @@
+.bg-white { background-color:rgba(255, 255, 255,1 ); }
+.bg-primary { background-color: #f2f2f2; }
+.bg-success { background-color: rgba(15, 157, 88, 1); }
+.bg-warn { background-color: rgba(255, 153, 0,1); }
+.bg-error { background-color: rgba(219, 68, 55, 1) }
+.bg-info { background-color: rgba(0, 188, 212,1); }
+
+.bg-white-light { background-color: rgba(255, 255, 255, .3); }
+.bg-primary-light { background-color: #f2f2f2; }
+.bg-success-light { background-color: rgba(15, 157, 88, .3); }
+.bg-warn-light { background-color: rgba(255, 153, 0, .3); }
+.bg-error-light { background-color: rgba(219, 68, 55, .3) }
+.bg-info-light { background-color: rgba(0, 188, 212, .3); }
+
+.bg-white-dark { background-color: #fdfdfd; }
+.bg-primary-dark { background-color: #e6e6e6; }
+.bg-success-dark { background-color: rgb(11, 99, 56); }
+.bg-warn-dark { background-color: rgb(204, 128, 14); }
+.bg-error-dark { background-color: rgb(162, 49, 40) }
+.bg-info-dark { background-color: rgba(6, 142, 160,1); }

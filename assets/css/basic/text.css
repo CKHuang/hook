@@ -1,0 +1,25 @@
+.text-left { text-align: left }
+.text-center { text-align: center }
+.text-right { text-align: right }
+
+.text-lowercase { text-transform: lowercase }
+.text-uppercase { text-transform: uppercase }
+.text-capitalize { text-transform: capitalize }
+
+.text-muted { color: #666 }
+.text-muted-more { color: #999 }
+.text-white { color: #fff }
+.text-primary { color: #333 }
+.text-success { color:  #0f9d58 }
+.text-warn { color: rgb(255, 153, 0); }
+.text-error { color: #db4437 }
+.text-info { color: rgb(0, 188, 212); }
+
+.text-maintitle { font-size: 20px; }
+.text-title { font-size: 18px; }
+.text-subtitle { font-size: 16; }
+.text-content { font-size: 14px; }
+.text-content-sm { font-size: 13px;}
+.text-assist { font-size: 12px; }
+
+.text-strong { font-weight: 700; }
