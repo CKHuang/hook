@@ -114,6 +114,8 @@
     background-color: transparent;
     border-color:  rgba(0, 0, 0, 0.2);
 }
+
+
 .btn-flat.btn-success {
     background-color: rgba(15, 157, 88, .05);
     border-color: rgba(15, 157, 88, .8);
@@ -127,6 +129,8 @@
 .btn-flat.btn-success:hover .btn-label {
     color: #fff;
 }
+
+
 .btn-flat.btn-warn {
     background-color: rgba(255, 153, 0, .05);
     border-color: rgba(255, 153, 0, .8);
@@ -134,10 +138,53 @@
 .btn-flat.btn-warn .btn-label {
      color: rgba(255, 153, 0, .8);
 }
+.btn-flat.btn-warn:hover {
+    background-color: rgba(255, 153, 0, 1);
+}
+.btn-flat.btn-warn:hover .btn-label {
+    color: #fff;
+}
+
+
 .btn-flat.btn-error {
     background-color: rgba(219, 68, 55, .05);
     border-color: rgba(219, 68, 55, .8);
 }
 .btn-flat.btn-error .btn-label {
      color: rgba(219, 68, 55, .8);
+}
+.btn-flat.btn-error:hover {
+    background-color: rgba(219, 68, 55, 1);
+}
+.btn-flat.btn-error:hover .btn-label {
+    color: #fff;
+}
+
+
+.btn-flat.btn-info {
+    background-color: rgba(0, 188, 212, .05);;
+    border-color: rgba(0, 188, 212, .8);
+}
+.btn-flat.btn-info .btn-label {
+     color: rgba(0, 188, 212, .8);
+}
+.btn-flat.btn-info:hover {
+    background-color: rgba(0, 188, 212, 1);
+}
+.btn-flat.btn-info:hover .btn-label {
+    color: #fff;
+}
+
+.btn-flat.btn-primary {
+    background-color: rgba(33, 150, 243, .05);
+    border-color: rgba(33, 150, 243, .8);
+}
+.btn-flat.btn-primary .btn-label {
+     color: rgba(33, 150, 243, .8);
+}
+.btn-flat.btn-primary:hover {
+    background-color: rgba(33, 150, 243, 1);
+}
+.btn-flat.btn-primary:hover .btn-label {
+    color: #fff;
 }
