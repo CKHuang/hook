@@ -17,6 +17,8 @@ header {
 
 .header {
     display: flex;
+    height: 70px;
+    align-items: center;
 }
 
 .header .brand a {
@@ -29,7 +31,22 @@ header {
 /*
  * search-bar
  */
-.search-bar {
+.header .search-bar {
     position: relative;
     background: #f2f2f2;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 2px #ccc;
+    height: 35px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.header .search-bar input {
+    border: none;
+    background: transparent;
+    width: 35em;
+    font-size: 16px;
+    outline: none;
 }
