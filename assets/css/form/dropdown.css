@@ -1,0 +1,17 @@
+.dropdown {
+    position: relative;
+}
+.dropdown .trigger {
+
+}
+.dropdown .list {
+    position: absolute;
+    background-color: #fff;
+    padding: 8px 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    bottom: 2px;
+}
+.dropdown .list li {
+    
+}
