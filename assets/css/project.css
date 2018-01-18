@@ -29,7 +29,7 @@ header {
 
 
 /*
- * search-bar
+ * [header] search-bar
  */
 .header .search-bar {
     position: relative;
@@ -106,4 +106,32 @@ header {
 }
 .header .search-bar:hover .result {
     display: block;
+}
+
+/*
+ * [header] add
+ */
+.header .add.dropdown .list {
+    width: 150px;
+    right: 0px;
+}
+
+/*
+ * [menu] nav
+ */
+.menu .nav {
+    display: flex;
+    display: -webkit-box;
+ }
+.menu .nav li {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-bottom: 3px transparent solid;
+    padding: 0px 10px;
+    font-size: 13px;
+}
+.menu .nav li.active {
+    border-color: blue;
 }

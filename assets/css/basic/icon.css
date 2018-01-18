@@ -35,3 +35,6 @@
 .fa-check:before {
     content: "\f00c";
 }
+.fa-plus::before {
+    content: "\f067";
+}
