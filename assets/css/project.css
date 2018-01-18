@@ -1,0 +1,35 @@
+body {
+    font: normal 14px/1.5 Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #363b42;
+    background-color: #f2f2f2;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+header {
+    background: #fff;
+}
+
+.header {
+    display: flex;
+}
+
+.header .brand a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/*
+ * search-bar
+ */
+.search-bar {
+    position: relative;
+    background: #f2f2f2;
+}
