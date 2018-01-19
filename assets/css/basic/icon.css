@@ -53,7 +53,7 @@
 .fa-angle-left:before {
     content: "\f104";
 }
-.fa-angle-right::before {
+.fa-angle-right:before {
     content: "\f105";
 }
 .fa-ellipsis-h:before {
