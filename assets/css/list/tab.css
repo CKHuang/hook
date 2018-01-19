@@ -1,0 +1,30 @@
+.tab {
+    position: relative;
+}
+.tab .tab-header {
+    border-bottom: 1px solid #e1e4e8;
+}
+.tab .tab-nav {
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+}
+.tab .tab-nav li {
+    min-width: 6em;
+    padding: 0px 10px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.tab .tab-nav li.active {
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+}
+.tab .tab-panel {
+    width: 100%;
+    background-color: #fff;
+
+}

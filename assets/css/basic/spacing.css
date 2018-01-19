@@ -28,6 +28,8 @@
 .pad-l-lg { padding-left: 20px; }
 .pad-l-xl { padding-left: 30px; }
 
+.no-pad { padding: 0px !important;}
+
 
 .mar-xs { margin: 5px; }
 .mar-sm { margin: 10px; }
@@ -58,3 +60,5 @@
 .mar-l { margin-left: 15px; }
 .mar-l-lg { margin-left: 20px; }
 .mar-l-xl { margin-left: 30px; }
+
+.no-mar {margin: 0px !important;}
