@@ -2,3 +2,21 @@ table {
     position: relative;
     width: 100%;
 }
+table th,table td {
+    text-align: left;
+    padding: 0px 10px;
+    line-height: 40px;
+    height:40px;
+    font-size: 14px;
+
+}
+table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+table td {
+    cursor: pointer;
+}
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
