@@ -41,3 +41,12 @@
 .fa-product-hunt:before {
     content: "\f288";
 }
+.fa-git::before {
+    content: "\f1d3";
+}
+.fa-group:before {
+    content: "\f0c0";
+}
+.fa-user:before {
+    content: "\f007";
+}
