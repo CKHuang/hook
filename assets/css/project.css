@@ -27,6 +27,9 @@ header {
     font-weight: 700;
 }
 
+article.content {
+    padding-top: 20px;
+}
 
 /*
  * [header] search-bar
@@ -135,4 +138,12 @@ header {
 }
 .menu .nav li.active {
     border-color: blue;
+}
+
+
+/*
+ * [content] project 
+ */
+.projects .item{
+
 }

@@ -1,0 +1,35 @@
+.card {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    -webkit-bos-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    cursor: pointer;
+    transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                box-shadow 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -webkit-transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms,
+                        box-shadow 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    /* transition: background-color 200ms ease-in;
+    -webkit-transition: background-color 200ms ease-in; */
+}
+.card .card-header {
+
+}
+.card .card-body {
+
+}
+.card .card-footer {
+    background-color: #fafafa;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    border-top: 1px solid #e6e6e6;
+    padding: 10px 15px;
+}
+.card:hover {
+    transform: translate(0px,-5px);
+    -webkit-transform: translate(0px,-5px);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0px 3px 10px rgba(0,0,0,.2);
+    
+}
