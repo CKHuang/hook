@@ -19,4 +19,6 @@
 @import url("./list/pagination.css");
 @import url("./list/tab.css");
 
+@import url("./data/table.css");
+
 @import url("./nav/breadcrumb.css");

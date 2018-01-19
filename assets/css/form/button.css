@@ -188,3 +188,12 @@
 .btn-flat.btn-primary:hover .btn-label {
     color: #fff;
 }
+
+
+.btn-sm {
+    height: 25px;
+    line-height: 25px;
+}
+.btn-sm .btn-label {
+    font-size: 12px;
+}
