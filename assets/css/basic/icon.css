@@ -38,3 +38,6 @@
 .fa-plus::before {
     content: "\f067";
 }
+.fa-product-hunt:before {
+    content: "\f288";
+}

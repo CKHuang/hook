@@ -144,6 +144,20 @@ article.content {
 /*
  * [content] project 
  */
-.projects .item{
-
+.projects .item .name{
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.projects .item .name .fa {
+    font-size: 14px;
+}
+.projects .item.git .card-body:after {
+    content: "GIT";
+    font-size: 50px;
+    color: #f2f2f2;
+    position: absolute;
+    right: 25px;
+    z-index: 0;
+    top: -25px;
 }
