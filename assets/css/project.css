@@ -200,12 +200,22 @@ article.content {
 .block {
     position: relative;
 }
-.block .block-title {
+.block .block-header {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.block .block-header .block-title {
     border-left: 2px solid blue;
     padding-left: 15px;
-    line-height: 15px;
-    height: 15px;
-    font-size: 15px;
+    line-height: 25px;
+    height: 25px;
+    font-size: 17px;
     font-weight: 500;
-    margin-bottom: 20px;
+}
+.block .block-header .block-opera {
+    position: absolute;
+    right: 0px;
 }
