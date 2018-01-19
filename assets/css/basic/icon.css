@@ -59,3 +59,9 @@
 .fa-ellipsis-h:before {
     content: "\f141";
 }
+.fa-task:before {
+    content: "\f0ae";
+}
+.fa-cogs:before {
+    content: "\f085";
+}

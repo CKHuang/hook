@@ -10,7 +10,7 @@
     display: -webkit-flex;
 }
 .tab .tab-nav li {
-    min-width: 6em;
+    min-width: 8em;
     padding: 0px 10px;
     height: 40px;
     line-height: 40px;
@@ -22,6 +22,9 @@
     cursor: default;
     background-color: #fff;
     border: 1px solid #e1e4e8;
+    position: relative;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #fff;
 }
 .tab .tab-panel {
     width: 100%;
