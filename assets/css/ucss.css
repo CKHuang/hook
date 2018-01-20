@@ -14,6 +14,8 @@
 @import url("./form/input.css");
 @import url("./form/select.css");
 @import url("./form/switch.css");
+@import url("./form/dialog.css");
+@import url("./form/form.css");
 
 @import url("./list/card.css");
 @import url("./list/pagination.css");

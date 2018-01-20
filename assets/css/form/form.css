@@ -1,0 +1,16 @@
+.form {
+    position: relative;
+}
+.form .form-control {
+    position: relative;
+    margin-bottom: 15px;
+}
+.form .form-control .form-label {
+    font-size: 13px;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+}
+.form .form-control .form-input {
+
+}
