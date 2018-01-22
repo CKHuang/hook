@@ -1,0 +1,9 @@
+input[type="text"],input[type="password"] {
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
