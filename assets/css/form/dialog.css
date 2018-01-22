@@ -52,9 +52,9 @@
     padding-bottom: 0px;
 }
 .dialog .dialog-body {
-    min-width: 400px;
+    /* min-width: 400px;
     max-width: 80%;
-    max-height: 80%;
+    max-height: 80%; */
     overflow: auto;
 }
 .dialog .dialog-footer {

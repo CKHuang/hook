@@ -9,6 +9,11 @@
     line-height: 30px;
     border-bottom: 1px solid #E4E4E4;
 }
+.select .select-result .fa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 .select .select-result input {
     position: relative;
     outline: none;
