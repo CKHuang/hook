@@ -1,0 +1,18 @@
+input[type="text"],input[type="password"] {
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+input[type="text"]:focus,input[type="password"]:focus {
+    transition: border-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -webkit-transition: border-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    border-bottom-color: rgb(33, 150, 243);
+}
+.input-block {
+    display: block;
+    width: 100%;
+}

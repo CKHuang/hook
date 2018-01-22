@@ -8,11 +8,13 @@
 @import url("./basic/background.css");
 
 @import url("./form/button.css");
+@import url("./form/input.css");
 @import url("./form/dropdown.css");
 @import url("./form/radio.css");
 @import url("./form/checkbox.css");
 @import url("./form/input.css");
 @import url("./form/select.css");
+@import url("./form/multiselect.css");
 @import url("./form/switch.css");
 @import url("./form/dialog.css");
 @import url("./form/form.css");

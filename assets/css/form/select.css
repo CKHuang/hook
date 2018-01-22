@@ -1,5 +1,7 @@
 .select {
     position: relative;
+    width: 100%;
+    z-index: 200;
 }
 .select .select-result {
     position: relative;
@@ -14,12 +16,14 @@
     user-select: none;
     -webkit-user-select: none;
     cursor: pointer;
-    /* font-size: 13px; */
-    /* height: 100%; */
     font-size: 14px;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
     line-height: 100%;
 }
 .select .select-options {
+    width: 100%;
     position: relative;
     left: 0px;
     position: absolute;
@@ -27,9 +31,7 @@
     padding: 5px 0px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
-    width: 100%;
-    top: 0px;
-    z-index: 100;
+    display: none;
 }
 .select .select-options li {
     cursor: pointer;
@@ -40,4 +42,7 @@
 }
 .select .select-options li:hover {
     background-color: #f2f2f2;
+}
+.select:hover .select-options {
+    display: block;
 }
