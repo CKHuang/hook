@@ -1,0 +1,40 @@
+.multiselect {
+    position: relative;
+    width: 100%;
+    z-index: 200;
+}
+.multiselect .multiselect-result {
+    position: relative;
+    min-height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.multiselect .multiselect-result .multiselect-result-item {
+    display: block;
+    position: relative;
+    /* background-color: blue; */
+    /* border-radius: 2px; */
+    /* width: 33%; */
+    margin-right: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.multiselect .multiselect-result span {
+    position: relative;
+    outline: none;
+    border: none;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    /* height: 25px; */
+    padding: 0px;
+    width: 100%;
+    line-height: 100%;
+    background: blue;
+    /* border-radius: 2px; */
+    display: inline-block;
+}
