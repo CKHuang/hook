@@ -1,6 +1,7 @@
 .select {
     position: relative;
     width: 100%;
+    z-index: 200;
 }
 .select .select-result {
     position: relative;
@@ -29,6 +30,7 @@
     padding: 5px 0px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    display: none;
 }
 .select .select-options li {
     cursor: pointer;
@@ -39,4 +41,7 @@
 }
 .select .select-options li:hover {
     background-color: #f2f2f2;
+}
+.select:hover .select-options {
+    display: block;
 }
