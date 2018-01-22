@@ -1,5 +1,6 @@
 .select {
     position: relative;
+    width: 100%;
 }
 .select .select-result {
     position: relative;
@@ -14,10 +15,13 @@
     -webkit-user-select: none;
     cursor: pointer;
     font-size: 13px;
-    height: 100px;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
     line-height: 100%;
 }
 .select .select-options {
+    width: 100%;
     position: relative;
     left: 0px;
     position: absolute;
